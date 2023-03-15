@@ -16,3 +16,9 @@ ul.links {
 .logo {
     margin-right: 15px;
 }
+
+.headerbox {
+    background: #1f2937;
+    color: white;
+    height: 300px;
+}
