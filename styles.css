@@ -12,7 +12,6 @@ a {
 }
 
 body {
-    display: flex;
     margin: 0;
 }
 
@@ -69,10 +68,35 @@ button {
     color: #F9FAF8;
     padding: 10px 25px;
 }
-
-.heroleft {
-}
  
 .headerbox {
     width: 1200px;
+}
+
+
+.info {
+    max-width: 100px;
+}
+
+.cardbox {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cardtitle {
+    text-align: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    border: #3882F6;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.cardtext {
+    font-size: 10px;
+    text-align: center;
 }
